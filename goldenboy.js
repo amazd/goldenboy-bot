@@ -106,6 +106,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
         const messageText = message.text.toLowerCase();
         const userName = getUsernameFromId(message.user);
 
+/*
         console.log(userName + ' said: ' + message.text); // eslint-disable-line no-console
 
         let swearCount = 0;
@@ -168,6 +169,7 @@ rtm.on(RTM_EVENTS.MESSAGE, function handleRtmMessage(message) {
                     }
                 });
             }
+            */
 
 
             if (message.text.indexOf(':') > -1) {  // check for commands
