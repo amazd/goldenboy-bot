@@ -62,7 +62,7 @@ const {swears} = require('./src/swears');
 function giveHelp(command, message) {
     switch (command) {
         case 'hello:': {
-            rtm.sendMessage('Hello! :)', message.channel);
+            rtm.sendMessage('Hello there! :)', message.channel);
             break;
         }
         case 'help:': {
